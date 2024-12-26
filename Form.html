@@ -1,0 +1,67 @@
+<!--  Submitted BY: Muhammad Suhaib Butt
+      Batch: WMA-15 
+      Roll No: 343415
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Assignment</title>
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <form>
+      First Name:
+      <input type="text" />
+      Last Name:
+      <input type="text" />
+      <br />
+      <br />
+      Date of Birth:
+      <input type="date" name="DateOfBirth" id="DOB" />
+      Age:
+      <input type="number" />
+      <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <input
+        type="text"
+        id="gender"
+        name="gender"
+        list="gender-options"
+        placeholder="Select gender"
+      />
+      <datalist id="gender-options">
+        <option value="Male"></option>
+        <option value="Female"></option>
+      </datalist>
+
+      Email:
+      <input type="email" placeholder="Enter email address" />
+      <br />
+      <br />
+      <label for="Position Available">
+        Position Available:
+        <input type="radio" for="Position Available" />Junior Developer
+        <input type="radio" for="Position Available" />Mid-level Developer
+        <input type="radio" for="Position Available" />Senior Developer
+      </label>
+      <br />
+      <br />
+      <label for="Position Available"> Programming Languages: </label>
+      <input type="checkbox" />Java <input type="checkbox" />JavaScript
+      <input type="checkbox" />Python
+      <br />
+      <br />
+      Password:
+      <input type="password" name="" id="" />
+      Confirm Password:
+      <input type="password" name="" id="" />
+      <br />
+      <br />
+      <input type="submit" name="" id="" />
+      <input type="reset" name="" id="" />
+    </form>
+  </body>
+</html>
